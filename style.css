@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header Elements */
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+/* Main Elements */
+
+.main {
+    width: 200px;
+}
+
+.quote {
+
+}
+
+.action {
+
+}
+
+.footer {
+
+}
+
+
+.square.lift {
+    object-position: 0 80%;
+}
+
+
+
+.square {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.header,
+.footer {
+    background-color: #1F2937;
+}
