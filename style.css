@@ -18,24 +18,28 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 40px;
-    align-self: flex-start;
+    padding: 10px 80px 80px;
 }
 
 .menu {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 60px;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 900;
+    margin: 0px;
 }
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
     gap: 24px;
 }
 
@@ -47,17 +51,28 @@ a {
 
 .hero {
     display: flex;
+    gap: 30px;
+    margin-bottom: 60px;
+}    
+
+.hero_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
 }
 
 .hero_title {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin: 0px;
 }
 
 .hero_sub {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 0;
 }
 
 .hero_button {
@@ -66,13 +81,15 @@ a {
     font-weight: 600;
     border: none;
     font-size: 18px;
-    padding: 16px 32px;
+    padding: 12px 32px;
     border-radius: 8px;
-    width: 30%;
+    width: 160px;
+    display: block;
 }
 
 .main {
-    height: 400px;
+    width: auto;
+    height: 250px;
 }
 
 /* Information Section */
@@ -81,16 +98,27 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 30px 80px 80px;
 }
 
 .info_head {
     font-size: 36px;
     font-weight: 900;
+    margin: 0;
     color: #1F2937;
 }
 
 .info_container {
+    margin-top: 40px;
+    gap: 20px;
     display: flex;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .square {
@@ -109,23 +137,31 @@ a {
     font-size: 18px;
     font-weight: 300;
     color: #2d3746;
+    text-align: center;
 }
 
 /* Quote Section */
 
 .quote {
     background-color: #E5E7EB;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .quote_text {
     font-size: 36px;
     font-weight: 100;
     font-style: italic;
+    margin: 0%;
 }
 
 .attribution {
     font-size: 24px;
     font-weight: 700;
+    align-self: flex-end;
+    margin: 20px 0;
 }
 
 /* Action Section */
@@ -139,7 +175,18 @@ a {
     background-color: #3882F6;
     border-radius: 8px;
     width: 60%;
-    margin: 24px;
+    margin: 80px;
+    padding: 30px 60px;
+    display: flex;
+    flex: auto;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.action_box2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .action_head {
@@ -151,6 +198,7 @@ a {
 .action_text {
     font-size: 18px;
     color: #E5E7EB; 
+    margin: 0;
 }
 
 .action_button {
@@ -160,7 +208,8 @@ a {
     border: 2px solid;
     border-radius: 8px;
     font-size: 18px;
-    padding: 6px 32px;
+    width: 150px;
+    display: block;
 }
 
 /* Footer Section */
